@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './aayedi.png';
 import './App.css';
 
 function App() {
@@ -7,15 +7,18 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+
+
+         Welcome to Ayedi Botique 
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check Instagram
         </a>
       </header>
     </div>

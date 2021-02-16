@@ -1,5 +1,6 @@
 import logo from './aayedi.png';
 import './App.css';
+import products from './products'
 
 function App() {
   return (
@@ -12,13 +13,27 @@ function App() {
 
          Welcome to Ayedi Botique 
         </p>
+        
+
         <a
           className="App-link"
           href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Check Instagram
+          <button>
+          Instagram
+          </button>
+        </a>
+        <a
+          className="index"
+          href="public\index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>
+          Home
+          </button>
         </a>
       </header>
     </div>

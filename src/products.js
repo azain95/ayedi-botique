@@ -1,5 +1,6 @@
 import batshirt from "./pics/batshirt.PNG";
 import perfume1 from "./pics/perfume1.PNG";
+import lebneck from "./pics/lebneck.PNG";
 
 const products = [
   {
@@ -19,7 +20,7 @@ const products = [
     id: 3,
     name: "Lebanon Necklace",
     price: 20,
-    image: "https://ibb.co/100rk1W",
+    image: lebneck,
   },
 ];
 

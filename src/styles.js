@@ -20,6 +20,7 @@ const styles = {
         height: "400px",
         display: "flex",
         paddingLeft: "15%", 
+        
     },
 };
 

@@ -1,17 +1,16 @@
 import logo from './aayedi.png';
 import './App.css';
-import productitem from "./component/productitem";
-import productlist from './component/produclist';
+import Productitem from './component/Productitem';
+import Produclist from './component/Produclist';
+import styles from './styles'
 
 
 function App() {
   return (
 
     <div>
-      <productitem />
-      <div>
-        <productlist />
-      </div>
+      <Productlist />
+    
     </div>
   );
 

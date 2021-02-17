@@ -1,16 +1,16 @@
 import react from "react";
 import products from "../products"
-import productitem from "./productitem"
+import Productitem from "./Productitem"
 
 
-const productlist = () => {
+const Productlist = () => {
 
     const productlist = products.map((product) => 
-<productsitem product={product} key={product.id}/>
+<Productitem product={product} key={product.id}/>
 
 
     )
     return productlist
 }
 
-    export default productlist
+    export default Productlist

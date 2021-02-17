@@ -2,7 +2,7 @@ import react from "react";
 import products from "../products"
 import styles from "../styles"
 
-const productitem = (props) => {
+const Productitem = (props) => {
     const product = props.product; 
     return (
         <div style = {styles.product} key={product.id}>
@@ -18,4 +18,4 @@ const productitem = (props) => {
 
 
 };
-export default productitem;
+export default Productitem;

@@ -1,31 +1,26 @@
+import batshirt from "./pics/batshirt.PNG";
+import perfume1 from "./pics/perfume1.PNG";
 
+const products = [
+  {
+    id: 1,
+    name: "necklace",
+    price: 15,
+    image: batshirt,
+  },
 
-
-
-const products =[ 
-
-    {
-        id:1,
-        name: "necklace" ,
-price: 15 ,
-image: "https://ibb.co/100rk1W",},
-
-   { 
-    id:2,   
-    name : "Perfume" ,
-    price : 10 ,
-    image: "https://ibb.co/6tjbx0w",
-   },
-   {
-       id:3,
-       name: "Lebanon Necklace",
-    price : 20,
-    image : "https://ibb.co/100rk1W",
-   },
-       
-     
+  {
+    id: 2,
+    name: "Perfume",
+    price: 10,
+    image: perfume1,
+  },
+  {
+    id: 3,
+    name: "Lebanon Necklace",
+    price: 20,
+    image: "https://ibb.co/100rk1W",
+  },
 ];
 
-
- 
-export default products 
+export default products;

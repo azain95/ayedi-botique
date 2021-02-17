@@ -1,17 +1,31 @@
-const necklace1 = {
-name: "necklace" ,
+
+
+
+
+const products =[ 
+
+    {
+        id:1,
+        name: "necklace" ,
 price: 15 ,
-Picture: "pics/lebneck.PNG",
+image: "https://ibb.co/100rk1W",},
 
-}
-
-
-const perfum = {
+   { 
+    id:2,   
     name : "Perfume" ,
     price : 10 ,
-    Picture: "pics/neckset1.PNG" , 
-}
+    image: "https://ibb.co/6tjbx0w",
+   },
+   {
+       id:3,
+       name: "Lebanon Necklace",
+    price : 20,
+    image : "https://ibb.co/100rk1W",
+   },
+       
+     
+];
 
 
- const products = [ perfum, necklace1]
+ 
 export default products 

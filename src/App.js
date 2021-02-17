@@ -10,7 +10,7 @@ function App() {
             <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Wlcome to Ayedi Botique
+          Wlcome to Ayedi boutique
         </p>
        
       </header>
@@ -19,7 +19,7 @@ function App() {
     <footer>
     <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"
           target="_blank"
           rel="noopener noreferrer"
         >

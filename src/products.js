@@ -1,11 +1,12 @@
 import batshirt from "./pics/batshirt.PNG";
 import perfume1 from "./pics/perfume1.PNG";
 import lebneck from "./pics/lebneck.PNG";
+import neckset1 from "./pics/neckset1.PNG";
 
 const products = [
   {
     id: 1,
-    name: "necklace",
+    name: "BatMan Shirt",
     price: 15,
     image: batshirt,
   },
@@ -21,6 +22,12 @@ const products = [
     name: "Lebanon Necklace",
     price: 20,
     image: lebneck,
+  },
+  {
+    id: 4,
+    name: "Necklace & Bracelet set",
+    price: 35,
+    image: neckset1,
   },
 ];
 

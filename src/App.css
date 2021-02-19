@@ -23,8 +23,8 @@
   justify-content: center;
   font-size: calc(25px + 2vmin);
 
-  color:darkslateblue ; 
-  font-family: 'Aclonica', sans-serif;
+  color: darkslateblue;
+  font-family: "Aclonica", sans-serif;
 }
 
 .App-link {
@@ -40,22 +40,21 @@
   }
 }
 
-a  {
+a {
   align-items: center;
   justify-content: center;
-  color:darkslateblue ; 
-  font-family: 'Aclonica', sans-serif;
+  color: darkslateblue;
+  font-family: "Aclonica", sans-serif;
   font-size: calc(15px + 2vmin);
 }
 
 div {
-
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-align: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
 }
-footer{
+footer {
   margin-bottom: 50px;
 }

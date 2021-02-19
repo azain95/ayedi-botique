@@ -2,12 +2,14 @@ import logo from "./aayedi.png";
 import Produclist from "./component/Produclist";
 import "./App.css";
 
+import { Titale } from "./styles2";
+
 function App() {
   return (
     <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Wlcome to Ayedi boutique</p>
+        <Titale>{"Wlcome to Ayedi boutique "}</Titale>
       </header>
       <a>New Items</a>
 

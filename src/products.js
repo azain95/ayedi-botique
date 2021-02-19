@@ -7,20 +7,20 @@ const products = [
   {
     id: 1,
     name: "BatMan Shirt",
-    price: 15,
+    price: 8,
     image: batshirt,
   },
 
   {
     id: 2,
     name: "Perfume",
-    price: 10,
+    price: 7,
     image: perfume1,
   },
   {
     id: 3,
     name: "Lebanon Necklace",
-    price: 20,
+    price: 10,
     image: lebneck,
   },
   {

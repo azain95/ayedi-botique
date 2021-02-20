@@ -2,11 +2,12 @@ import logo from "./aayedi.png";
 import Produclist from "./component/Produclist";
 import "./App.css";
 
-import { Titale } from "./styles2";
+import { createGlobalStyle, Titale } from "./styles2";
 
 function App() {
   return (
     <div>
+      <createGlobalStyle>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Titale>{"Wlcome to Ayedi boutique "}</Titale>
@@ -24,6 +25,7 @@ function App() {
           Back To Instagram
         </a>
       </footer>
+      </createGlobalStyle>
     </div>
   );
 }

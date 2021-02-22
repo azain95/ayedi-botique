@@ -1,5 +1,4 @@
 const styles = {
-  body: { backgroundcolor: "#ffffff" },
   productimage: {
     width: "400px",
     height: "400px",

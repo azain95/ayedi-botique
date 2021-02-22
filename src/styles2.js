@@ -21,6 +21,8 @@ const AA = styled.a`
 
 const ThemeButton = styled.button`
   font-size: 1em;
+  align-items: center;
+  align-items: right;
   margin: 1.25em;
   padding: 0.25em 1em;
   border-radius: 3px;
@@ -38,4 +40,13 @@ const logoheader = styled.header`
   font-size: calc(25px + 2vmin);
 `;
 
-export { Titale, GlobalStyle, ThemeButton, AA };
+const SearchBarStyled = styled.input`
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+`;
+
+export { Titale, GlobalStyle, ThemeButton, AA, SearchBarStyled };

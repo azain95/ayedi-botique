@@ -3,7 +3,7 @@ import Produclist from "./component/Produclist";
 import "./App.css";
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
-
+import SearchBar from "./SearchBar";
 import { GlobalStyle, ThemeButton, Titale, AA } from "./styles2";
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
         <Titale>{"Wlcome to Ayedi boutique "}</Titale>
       </header>
       <AA>New Items</AA>
+
       <Produclist />
       <footer>
         <a

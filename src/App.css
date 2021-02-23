@@ -28,12 +28,7 @@
   }
 }
 
-a {
-  align-items: center;
-  justify-content: center;
-  font-family: "Aclonica", sans-serif;
-  font-size: calc(15px + 2vmin);
-}
+
 
 div {
   align-items: center;
@@ -44,4 +39,12 @@ div {
 }
 footer {
   margin-bottom: 50px;
+}
+
+
+.navbar-brand img {
+  height: 50px;
+  /* put value of image height as your need */
+  float: left;
+
 }

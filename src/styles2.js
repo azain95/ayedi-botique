@@ -16,14 +16,15 @@ const GlobalStyle = createGlobalStyle`
   }`;
 
 const AA = styled.a`
-  color: ${(props) => props.theme.headersColor};
+  color: ${(props) => props.theme.linksColor};
+  align-items: center;
+  justify-content: center;
+  font-family: "Aclonica", sans-serif;
+  font-size: calc(15px + 2vmin);
 `;
 
 const ThemeButton = styled.button`
   font-size: 1em;
-  align-items: center;
-  align-items: right;
-  margin: 1.25em;
   padding: 0.25em 1em;
   border-radius: 3px;
   font-family: "Aclonica", sans-serif;
@@ -44,9 +45,16 @@ const SearchBarStyled = styled.input`
   padding: 0.5rem;
   margin: 1rem auto;
   display: block;
-  width: 25%;
+  width: 20%;
   justify-content: center;
   align-items: center;
+  float : center;
+  font-size: calc(10px + 1vmin);
 `;
 
-export { Titale, GlobalStyle, ThemeButton, AA, SearchBarStyled };
+const NavStyled = styled.nav`
+  background-color: ${(props) => props.theme.backgroundColor};
+`;
+
+
+export { Titale, GlobalStyle, ThemeButton, AA, SearchBarStyled , NavStyled};

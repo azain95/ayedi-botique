@@ -9,8 +9,6 @@ import { Route, Switch } from "react-router";
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
-
-
 function App() {
   const theme = {
     light: {
@@ -23,7 +21,7 @@ function App() {
       mainColor: "#fefafb", // main font color
       backgroundColor: "#242424", // main background color
       headersColor: "#00d5ff",
-      linksColor:"#fc037f",
+      linksColor: "#fc037f",
     },
   };
 
@@ -37,35 +35,28 @@ function App() {
       <NavBar currentTheme={currentTheme} toggleTheme={toggleTheme} />
 
       <ThemeButton className="nav-item" onClick={toggleTheme}>
-     
         Go {currentTheme === "dark" ? "Light" : "Dark"}
       </ThemeButton>
-    
-      <Link to="/Productlist" style={{ margin: 10, float: "right" }}>
-  Check Our Cool Items
-</Link>
+
       <Switch>
-      <Route  path="/Productlist">
-        <Produclist />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
+        <Route path="/Productlist">
+          <Produclist />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
       </Switch>
       <footer>
-      <AA href="/">
-  Back Home To Check our Spining Logo
-</AA>
-
+        <AA href="/">Back Home To Check our Spining Logo</AA>
       </footer>
       <AA
-          className="App-link"
-          href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Back To Instagram
-        </AA>
+        className="App-link"
+        href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Back To Instagram
+      </AA>
     </ThemeProvider>
   );
 }

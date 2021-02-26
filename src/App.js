@@ -25,18 +25,16 @@ function App() {
     },
   };
 
-  const [currentTheme, setCurrentTheme] = useState("dark");
+  const [isDark, setisDark] = useState(true);
   const toggleTheme = () =>
-    setCurrentTheme(currentTheme === "light" ? "dark" : "light");
+    setisDark(!isDark);
 
   return (
-    <ThemeProvider theme={theme[currentTheme]}>
+    <ThemeProvider theme={theme[isDark ? 'dark' : 'light']}>
       <GlobalStyle />
-      <NavBar currentTheme={currentTheme} toggleTheme={toggleTheme} />
+      <NavBar isDark={isDark} toggleTheme={toggleTheme} />
 
-      <ThemeButton className="nav-item" onClick={toggleTheme}>
-        Go {currentTheme === "dark" ? "Light" : "Dark"}
-      </ThemeButton>
+
 
       <Switch>
         <Route path="/Productlist">
@@ -46,9 +44,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
-      <footer>
-        <AA href="/">Back Home To Check our Spining Logo</AA>
-      </footer>
+
       <AA
         className="App-link"
         href="https://instagram.com/ayedi_boutique?igshid=jxzlrsexlczt"

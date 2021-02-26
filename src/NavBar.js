@@ -5,14 +5,14 @@ import logo from "./pics/aayedi.png";
 import theme from "./App"
 
 
-      const NavBar = (props)=> {
+      const NavBar = ({isDark, toggleTheme})=> {
          return (
-         <NavStyled className="navbar navbar-expand-lg navbar-light bg-light">
+         <NavStyled className={`navbar navbar-expand-lg ${isDark ? "navbar-light bg-dark" :"navbar-light bg-light"} `}>
          <AA className="navbar-brand" to="/">
          <img
          src={logo} 
-    // src={props.currentTheme === "light" ? lightLogo : darkLogo}
-    alt="logo"
+
+    alt="logo" 
   />
 </AA>
 
@@ -22,7 +22,9 @@ import theme from "./App"
                >Home <span className="sr-only">(current)</span></a
              >
              <a className="nav-item nav-link" href="/Productlist">Items</a>
-             <a className="nav-item nav-link" href="/Productlist">Items</a>
+             <a onClick = {toggleTheme} className = "nav-item nav-link" >
+             Go {isDark ? "Light" : "Dark"}
+             </a>
 
            </div>
          </div>

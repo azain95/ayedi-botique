@@ -7,6 +7,9 @@ function Home(params) {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
+
+
+      
       <Titale>{"Wlcome to Ayedi boutique "}</Titale>
     </header>
   );

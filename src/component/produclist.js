@@ -6,7 +6,7 @@ const Productlist = () => {
   const [query, setQuery] = useState("");
 
   const productlist = products
-    .filter((product) => product.name.includes(query))
+    .filter((product) => product.name.toLowerCase().includes(query))
     .map((product) => <Productitem product={product} key={product.id} />);
   return (
     <>

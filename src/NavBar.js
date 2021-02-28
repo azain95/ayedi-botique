@@ -1,8 +1,10 @@
 import react from "react";
-import { Link } from "react-router-dom";
+
 import { NavStyled, ThemeButton, Titale, AA } from "./styles2";
 import logo from "./pics/aayedi.png";
 import theme from "./App"
+import { Link, NavLink } from "react-router-dom";
+import SearchBar from "./SearchBar";
 
 
       const NavBar = ({isDark, toggleTheme})=> {
@@ -25,6 +27,7 @@ import theme from "./App"
              <a onClick = {toggleTheme} className = "nav-item nav-link" >
              Go {isDark ? "Light" : "Dark"}
              </a>
+             <a><SearchBar /></a>
 
            </div>
          </div>

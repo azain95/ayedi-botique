@@ -45,7 +45,7 @@ const SearchBarStyled = styled.input`
   padding: 0.5rem;
   margin: 1rem auto;
   display: block;
-  width: 20%;
+  width: 450px;
   justify-content: center;
   align-items: center;
   float : center;

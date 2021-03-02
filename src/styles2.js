@@ -1,3 +1,4 @@
+
 import styled, { createGlobalStyle } from "styled-components";
 const Titale = styled.h1`
   align-items: center;

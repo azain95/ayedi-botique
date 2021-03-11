@@ -29,6 +29,13 @@ function App() {
   const toggleTheme = () =>
     setisDark(!isDark);
 
+    const createProduct = (newProduct) => {
+      const updatedProduct = _products;
+      updatedProducts.push(newProduct);
+      setProducts(updatedProduct)
+
+    };
+
   return (
     <ThemeProvider theme={theme[isDark ? 'dark' : 'light']}>
       <GlobalStyle />
@@ -38,7 +45,11 @@ function App() {
 
       <Switch>
         <Route path="/Productlist">
-          <Produclist />
+          <Produclist
+            products={_products}
+            createProduct={createProduct}
+           
+          />
         </Route>
         <Route exact path="/">
           <Home />
